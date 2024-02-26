@@ -10,13 +10,13 @@ Requirements:
 
 API Endpoints:
 
-● Category Listing: Create an API endpoint that retrieves a list of categories.
+● Category Listing: An API endpoint that retrieves a list of categories.
 
 Method :- Get Request 
 
 http://localhost:3000/api/category/ 
 
-● Product Listing: Create an API endpoint that retrieves a list of products with
+● Product Listing: An API endpoint that retrieves a list of products with
 essential details such as title, price, description, and availability, based on
 category Id
 
@@ -24,7 +24,7 @@ Method :- Get Request
 
 http://localhost:3000/api/product/details/:id
 
-● Product Details: Implement an endpoint that fetches the detailed information of
+● Product Details: Implemented an endpoint that fetches the detailed information of
 a specific product by its ID.
 
 Method :- Get Request
@@ -32,7 +32,7 @@ Method :- Get Request
 http://localhost:3000/api/product/categoryId 
 
 
-● Cart Management: Develop API endpoints to allow users to add products to
+● Cart Management: Developed API endpoints to allow users to add products to
 their cart, view the cart, update quantities, and remove items from the cart.
 
 Method :- Post Request
@@ -51,21 +51,21 @@ Method :- Delete Request
 
 http://localhost:3000/api/cart/:cartItemId     
 
-● Order Placement: Create an endpoint to handle order placement, allowing users
+● Order Placement: Created an endpoint to handle order placement, allowing users
 to place an order with products from their cart.
 
 Method :- Post Request
 
 http://localhost:3000/api/order
 
-● Order History: Implement an endpoint to fetch the order history for
+● Order History: Implemented an endpoint to fetch the order history for
 authenticated users.
 
 Method :- Get Request
 
 http://localhost:3000/api/order
 
-● Order Details: Create an endpoint that retrieves the detailed information of a
+● Order Details: Created an endpoint that retrieves the detailed information of a
 specific order by its ID.
 
 Method :- Get Request
